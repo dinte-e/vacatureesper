@@ -1,0 +1,4 @@
+# GOOGLE ALERTS (optioneel)
+# De links staan standaard in config.json onder "feeds". Dit bestand is een alternatief:
+# hier mag je links plakken zonder op aanhalingstekens en komma's te letten.
+# Regels die met # beginnen worden overgeslagen. Staat een link op beide plekken, dan krijg je hem toch maar één keer.
