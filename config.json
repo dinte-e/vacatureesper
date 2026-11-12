@@ -1,10 +1,10 @@
 {
-  "_uitleg": "Vacature-alert voor Esper (producer). Plak bij elke Google Alert onder 'feeds' alleen de link tussen de aanhalingstekens, bijv. \"url\": \"https://www.google.com/alerts/feeds/123/456\". Zoektermen tellen als heel woord; hoofdletters en accenten maken niet uit. Een * aan het eind betekent 'begint met' (sponsorship* vindt ook sponsorships), een * aan het begin 'eindigt met' (*producer vindt ook contentproducer). Google Alerts gebruiken de zoektermen ook: de titel moet een passend functiewoord en een woord als 'vacature', 'hiring' of 'zoekt' bevatten. Senior, lead en head of blijven bewust staan.",
+  "_uitleg": "Vacature-alert voor Esper (producer). De 15 Google Alerts staan onder 'feeds', met de zoekopdracht zoals Esper hem in Google heeft ingesteld. Een nieuwe alert: kopieer een blok en vervang naam, zoekopdracht en url. Zoektermen tellen als heel woord; hoofdletters en accenten maken niet uit. Een * aan het eind betekent 'begint met' (sponsorship* vindt ook sponsorships), een * aan het begin 'eindigt met' (*producer vindt ook contentproducer). Google Alerts gebruiken de zoektermen ook: de titel moet een passend functiewoord en een woord als 'vacature', 'hiring' of 'zoekt' bevatten. Senior, lead en head of blijven bewust staan.",
 
   "zoektermen": {
     "Producer & productie": ["producer", "*producer", "producent", "*producent", "productieleider", "production manager", "production lead", "head of production", "head of content production"],
     "Campagnes & projectmanagement": ["campaign manager", "campaign lead", "campagnemanager", "campagne manager", "marketing project manager", "creative project manager", "creative operations", "creative ops", "integrated campaign*"],
-    "Events & brand activations": ["event manager", "eventmanager", "evenementenmanager", "event producer", "brand activation*", "activation manager", "*activatie", "experiential", "brand experience"],
+    "Events & brand activations": ["event manager", "eventmanager", "evenementenmanager", "event producer", "brand activation*", "activation manager", "*activatie", "experiential", "brand experience", "events manager", "events lead", "events producer", "head of events", "event lead", "retail activation"],
     "Brand partnerships": ["brand partnership*", "partnerships manager", "partnership manager", "partnerships lead", "collaborations manager", "collabs", "sponsorship*", "sponsoring manager"],
     "Content & e-commerce": ["content production", "content productie", "e-commerce production", "ecommerce production", "studio manager", "studio production", "shoot producer", "shoot manager"],
     "Digital asset management": ["digital asset*", "DAM manager", "DAM specialist", "DAM lead", "content operations"]
@@ -27,76 +27,94 @@
       "filter": "titel", "paginas": 4
     },
     {
-      "naam": "Google Alert: creative & brand producer",
+      "naam": "Google Alert: Creative & brand producer",
       "google_zoekopdracht": "vacature OR vacancy OR hiring \"creative producer\" OR \"brand producer\" OR \"campaign producer\" OR \"integrated producer\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/9583860150079124266",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: senior & head of production",
+      "naam": "Google Alert: Senior & head of production",
       "google_zoekopdracht": "vacature OR vacancy OR hiring \"senior producer\" OR \"head of production\" OR \"executive producer\" OR \"lead producer\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/6443462758900193508",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: content- & e-commerceproductie",
-      "google_zoekopdracht": "vacature OR vacancy OR hiring \"content producer\" OR \"content production manager\" OR \"e-commerce production\" OR \"shoot producer\" OR \"studio manager\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "naam": "Google Alert: Content- & e-commerceproductie",
+      "google_zoekopdracht": "vacature OR vacancy OR hiring \"content producer\" OR \"content production manager\" OR \"e-commerce production\" OR \"shoot producer\" OR \"studio manager\" OR \"production lead\"",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/7777007037002729289",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: brand partnerships & collabs",
+      "naam": "Google Alert: Brand partnerships & collabs",
       "google_zoekopdracht": "vacature OR vacancy OR hiring \"brand partnerships\" OR \"partnerships manager\" OR \"collaborations manager\" OR \"sponsorship manager\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/3639453535786927862",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: events & brand activations",
-      "google_zoekopdracht": "vacature OR vacancy OR hiring \"event producer\" OR \"brand activation\" OR \"experiential producer\" OR \"brand experience manager\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "naam": "Google Alert: Events & brand activations",
+      "google_zoekopdracht": "vacature OR vacancy OR hiring \"event producer\" OR \"brand activation\" OR \"experiential producer\" OR \"brand experience manager\" OR \"event manager\" OR \"activation manager\" OR \"experiential marketing\"",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/16148810450805811644",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: campagne- & creatief projectmanagement",
+      "naam": "Google Alert: Campagne- & creatief projectmanagement",
       "google_zoekopdracht": "vacature OR vacancy OR hiring \"marketing project manager\" OR \"creative project manager\" OR \"campaign manager\" OR \"creative operations\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/3742736562818131126",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: digital asset management",
-      "google_zoekopdracht": "vacature OR vacancy OR hiring \"digital asset management\" OR \"digital asset manager\" OR \"DAM specialist\" OR \"content operations manager\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
-      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
-    },
-    {
-      "naam": "Google Alert: nederlandstalige vacatures",
+      "naam": "Google Alert: Nederlandstalige vacatures",
       "google_zoekopdracht": "vacature producent OR productieleider OR eventmanager OR campagnemanager marketing OR merk OR evenementen OR campagne",
-      "url": "PLAK_HIER_DE_RSS_LINK",
-      "filter": "titel", "alleen_vacatures": "titel"
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/5162679439179810028",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Nederlands"
     },
     {
-      "naam": "Google Alert: fashion- & sportmerken",
-      "google_zoekopdracht": "vacature OR vacancy producer OR \"brand activation\" OR partnerships Nike OR adidas OR \"Tommy Hilfiger\" OR \"Calvin Klein\" OR Patta OR \"Daily Paper\" OR \"Scotch & Soda\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "naam": "Google Alert: Fashion- & sportmerken 1",
+      "google_zoekopdracht": "vacature OR vacancy producer OR \"brand activation\" OR partnerships Nike OR adidas OR \"Tommy Hilfiger\" OR \"Calvin Klein\" OR Patta OR \"Highsnobiety\" OR Carhartt OR \"Filling Pieces\"",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/11097714421621754726",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen, alle regio's"
+    },
+    {
+      "naam": "Google Alert: Fashion- & sportmerken 2",
+      "google_zoekopdracht": "vacature OR vacancy producer OR \"brand activation\" OR partnerships OR \"event manager\" \"New Balance\" OR Asics OR Puma OR Patagonia OR \"Under Armour\" OR \"On running\"",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/63320502059458000",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen, alle regio's"
+    },
+    {
+      "naam": "Google Alert: Reclamebureaus & productiehuizen",
+      "google_zoekopdracht": "vacature OR vacancy producer OR \"head of production\" OR \"creative producer\" OR \"Senior producer\" \"Wieden Kennedy\" OR 72andSunny OR Hogarth OR Monks OR \"Le Pub\" OR DEPT",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/16659307561353734506",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
-      "naam": "Google Alert: reclamebureaus & productiehuizen",
-      "google_zoekopdracht": "vacature OR vacancy producer OR \"head of production\" \"Wieden Kennedy\" OR 72andSunny OR Anomaly OR Hogarth OR Monks OR \"Le Pub\" OR DDB OR TBWA",
-      "url": "PLAK_HIER_DE_RSS_LINK",
-      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
+      "naam": "Google Alert: Fashion / PR agencies",
+      "google_zoekopdracht": "vacature OR vacancy producer OR \"head of production\" OR \"creative producer\" OR \"Senior producer\" \"Shelter studio\" OR \"Random studio\" OR \"1KG studio\" OR \"Kennedy London\" OR \"Radical PR\"",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/15272251470814520045",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen, alle regio's"
     },
     {
-      "naam": "Google Alert: muziek, festivals & entertainment",
-      "google_zoekopdracht": "vacature OR vacancy producer OR \"brand partnerships\" OR \"partnerships manager\" \"Amsterdam Dance Event\" OR ID&T OR ALDA OR \"Red Bull\" OR Heineken OR Mojo",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "naam": "Google Alert: Lifestyle & Entertainment",
+      "google_zoekopdracht": "vacature OR vacancy producer OR \"brand partnerships\" OR \"partnerships manager\" OR \"event manager\" \"Red Bull\" OR Heineken OR Mojo OR Netflix OR \"Arc'teryx\" OR Jagermeister",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/5395337033758925412",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
     },
     {
       "naam": "Google Alert: FashionUnited",
       "google_zoekopdracht": "site:fashionunited.nl OR site:fashionunited.com producer OR \"brand partnerships\" OR \"event manager\" OR \"campaign manager\" OR \"creative project manager\"",
-      "url": "PLAK_HIER_DE_RSS_LINK",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/16589204756447170431",
       "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
+    },
+    {
+      "naam": "Google Alert: Beauty and fragrance",
+      "google_zoekopdracht": "vacature OR vacancy \"brand experience\" OR \"retail activation\" OR events OR producer fragrance OR beauty OR parfum OR cosmetics",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/12915441303506862073",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen"
+    },
+    {
+      "naam": "Google Alert: Beauty and fragrance brands",
+      "google_zoekopdracht": "vacature OR vacancy \"brand experience\" OR \"retail activation\" OR events OR producer Diptyque OR \"Le Labo\" OR Byredo OR Aesop OR \"Maison Margiela\" OR Rituals",
+      "url": "https://www.google.com/alerts/feeds/04720617472686980504/245833186617051092",
+      "filter": "titel", "alleen_vacatures": "titel", "taal_bij_google": "Alle talen, alle regio's"
     }
   ]
 }
